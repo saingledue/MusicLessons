@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <LessonCard></LessonCard>
+      <LessonCard lessonName='Basics Part 1' description="This is the coolest 1st lesson ever"></LessonCard>
+      <LessonCard lessonName='Basics Part 2' description="Ready for part 2? Lesss goooo"></LessonCard>
+      <LessonCard lessonName='Basics Part 3' description="Are you a piano master? Keep it up!"></LessonCard>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

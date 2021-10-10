@@ -2,15 +2,20 @@ import React, { Component } from "react";
 import './styles/lessoncard.css';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
+import PropTypes from 'prop-types';
 //https://mui.com/api/button/
 class LessonCard extends Component {
+
     render() {
         return (
             <React.Fragment >
                 <body className="lessoncard">
                     <h1 >
-                        Piano Basics
+                        {this.props.lessonName}
                     </h1>
+                    <p>
+                        {this.props.description}
+                    </p>
                     <Stack direction="row" className="button" spacing={2}>
                         <Button variant="contained">Lesson</Button>
                         <Button variant="contained" disabled>Exercise</Button>
@@ -21,5 +26,10 @@ class LessonCard extends Component {
         );
     }
 }
+
+LessonCard.propTypes = {
+    lessonName: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+};
 
 export default LessonCard;
