@@ -17,7 +17,7 @@ class LessonCard extends Component {
                         {this.props.description}
                     </p>
                     <Stack direction="row" className="button" spacing={2}>
-                        <Button variant="contained">Lesson</Button>
+                        <Button variant="contained" href='home.js'>Lesson</Button>
                         <Button variant="contained" disabled>Exercise</Button>
                         <Button variant="contained" href="#contained-buttons" disabled>Quiz</Button>
                     </Stack>
