@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './styles/lessoncard.css';
 import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 //https://mui.com/api/button/
 class LessonCard extends Component {
     render() {
@@ -8,9 +9,13 @@ class LessonCard extends Component {
             <React.Fragment >
                 <body className="lessoncard">
                     <h1 >
-                        Hello
+                        Piano Basics
                     </h1>
-                    <Button variant="contained" className="button">Press me!</Button>
+                    <Stack direction="row" className="button" spacing={2}>
+                        <Button variant="contained">Lesson</Button>
+                        <Button variant="contained" disabled>Exercise</Button>
+                        <Button variant="contained" href="#contained-buttons" disabled>Quiz</Button>
+                    </Stack>
                 </body>
             </React.Fragment>
         );
