@@ -24,7 +24,7 @@ class LessonCard extends Component {
                     <Stack direction="row" className="button" spacing={2}>
                         <Button variant="contained" onClick={()=>{window.location.href='/slideShow'}}>Lesson</Button>
                         <Button variant="contained" onClick={()=>{window.location.href='/Exercise'}}>Exercise</Button>
-                        <Button variant="contained" href="#contained-buttons" disabled>Quiz</Button>
+                        <Button variant="contained" onClick={()=>{window.location.href='/quiz'}}>Quiz</Button>
                     </Stack>
                 </body>
             </React.Fragment>

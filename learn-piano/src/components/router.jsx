@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import HomePage from "./homePage";
 import SlideShow from "./SlideShow";
 import Exercise from "./Exercise";
+import Quiz from './quiz';
 import {
     BrowserRouter as Router,
     Switch,
@@ -24,6 +25,9 @@ class WebsiteRouter extends Component {
         </Route>
         <Route path="/Exercise">
             <Exercise/>
+        </Route>
+        <Route path="/quiz">
+            <Quiz/>
         </Route>
             </Switch>
         </Router>
