@@ -33,9 +33,13 @@ class Exercise extends Component {
                   </div>
                   {/* <div class={styles.questionArea}></div> */}
                   <div class={styles.pianoArea}>
-                  <p class={styles.pianoText}>___C#__D#____F#__G#__A#____C#__D#____F#__G#__A#__</p>
                     <InteractivePiano />
-                    <p class={styles.pianoText}>C4__D___E__F___G___A___B__C5__D__E__F___G___A___B</p>
+                    <div class={styles.labelArea}>
+                    <div><p class={styles.pianoText}> C4</p></div>
+                    <div></div>
+                    <div><p class={styles.pianoText}> C5</p></div>
+                    <div></div>
+                    </div>
                     {/* startNote={'C4'}
                     endNote={'B5'} */}
                   </div>
