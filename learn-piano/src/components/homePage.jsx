@@ -1,6 +1,7 @@
 import NavBar from "./navbar";
 import LessonCard from "./lessoncard";
 import React, { Component } from "react";
+
 class HomePage extends React.Component {
     render() {
       return (

@@ -5,7 +5,7 @@
 }
 .contentArea{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     width: 100%;
     height: 100%;
 }
@@ -17,12 +17,16 @@
     grid-template-columns: 1fr 10fr 1fr;
 
 }
-.noteArea{
-    background-color: yellow;
+
+
+.pianoText{
+    font-size: 31px;
 }
-.questionArea{
-    background-color: red;
+.image{
+    height:10rem;
+    width:45rem;
 }
-.pianoArea{
-    background-color: blue;
+.title{
+    margin-top: 10px 0 10px 0;
+    font-size: 30px
 }
