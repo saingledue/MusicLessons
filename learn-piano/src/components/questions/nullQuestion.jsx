@@ -4,7 +4,7 @@ class NullQuestion extends Component {
     render() {
       return (
         <React.Fragment>
-            <p>Empty Question</p>
+            <p>Error Loading Data</p>
         </React.Fragment>
       );
     }
