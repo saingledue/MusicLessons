@@ -1,7 +1,7 @@
 
 import React, { Component } from "react";
-import slide3 from '../images/slideshow-slides/Lesson1Slide1.png'
-import styles from '../styles/question.module.css';
+import slide3 from '../images/slideshow-slides/Lesson1Slide3.png'
+import styles from '../styles/slide.module.css';
 class lesson1slide3 extends Component {
     render() {
       return (

@@ -1,12 +1,12 @@
 
 import React, { Component } from "react";
-class NullQuestion extends Component {
+class nullSlide extends Component {
     render() {
       return (
         <React.Fragment>
-            <p>Error Loading Data</p>
+            <h1>End of Slides</h1>
         </React.Fragment>
       );
     }
   }
-  export default NullQuestion;
+  export default nullSlide;
