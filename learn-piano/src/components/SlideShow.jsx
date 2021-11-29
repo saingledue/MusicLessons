@@ -15,6 +15,7 @@ class SlideShow extends Component {
               </div>
               <div>
               <Button variant="contained">Watch as Video</Button>
+              <h1>Basic Note Identification: Lesson</h1>
                 <div className={styles.viewerBox}>
                 <SlideShowViewer></SlideShowViewer>
                 </div>

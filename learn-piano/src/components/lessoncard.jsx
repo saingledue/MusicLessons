@@ -15,7 +15,7 @@ class LessonCard extends Component {
         return (
             <React.Fragment >
                 <body className="lessoncard">
-                    <h1 >
+                    <h1 className ="naming" >
                         {this.props.lessonName}
                     </h1>
                     <p>

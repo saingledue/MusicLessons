@@ -22,6 +22,7 @@ class Exercise extends Component {
                 <Button variant="contained" onClick={()=>{window.location.href='/quiz'}}>Go To Quiz</Button>
               </div>
             </div>
+            <h1>Basic Note Identification: Exercise</h1>
             <div class={styles.contentBody}>
               <div></div>
               <div class={styles.contentArea}>

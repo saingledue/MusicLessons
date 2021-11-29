@@ -35,6 +35,7 @@ function Quiz(props){
                 <Button variant="contained" onClick={()=>{window.location.href='/slideShow'}}>Go To Next Lesson</Button>
               </div>
             </div>
+            <h1>Basic Note Identification: Quiz</h1>
             <div class={styles.contentBody}>
               <div></div>
               <div class={styles.contentArea}>
